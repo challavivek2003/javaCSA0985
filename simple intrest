@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class si
+{
+public static void main(String[] args)
+{
+float p,si,r,y;
+Scanner input=new Scanner(System.in);
+System.out.println("enter principle amount:");
+p=input.nextFloat();
+System.out.println("enter year:");
+y=input.nextInt();
+System.out.println("enter rate:");
+r=input.nextFloat();
+si=(p*y*r)/100;
+System.out.println("simple intrest:"+si);
+}
+}
